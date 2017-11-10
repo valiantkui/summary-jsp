@@ -1,0 +1,4 @@
+
+对于页面的公共部分，我们可以使用相同的jsp文件，并使用include指令来导入jsp文件，如此可以实现代码的简化
+比如指令<%@include  file="filename.jsp"%>可以将filename.jsp中的内容导入到该指令指定的位置。
+对于filename.jsp中的代码有如下要求：filename.jsp中html标签结构不必具有完整结构（不必含有html和body等标签）,因为该jsp文件是作为其他网页的一部分，其他网页已经具有了网页的完整格式。
